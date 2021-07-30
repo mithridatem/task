@@ -1,0 +1,36 @@
+ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	justify-content: space-between;
+	padding-left: 0; 
+	color: white;    
+}
+
+li {
+	width: 120px;
+	padding-top: 10px;
+	height: 30px;
+	background-color: rgb(24, 116, 236);
+   	flex: auto;
+	padding-left: 10px;
+	color: white;
+	   
+}
+li a{
+	color: white;
+}
+table{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 500px;
+	
+	border: 3px;
+}
+td{
+	border-width: 3px;
+	border-color: black;
+	background-color: rgb(191, 196, 191);	
+	width: 500px;
+}
